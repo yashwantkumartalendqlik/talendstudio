@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_3Hyb4D26Ee-Ut8nmmUrvPQ" name="test" creationDate="2024-07-09T11:47:04.335+0530">
+  <clientDependency href="../../metadata/connections/TestDB_0.1.item#_3HrHID26Ee-Ut8nmmUrvPQ"/>
+  <taggedValue xmi:id="_3Hyb4T26Ee-Ut8nmmUrvPQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_3Hyb4j26Ee-Ut8nmmUrvPQ" tag="Author" value="yahwant@asl.talend.com"/>
+  <taggedValue xmi:id="_3Hyb4z26Ee-Ut8nmmUrvPQ" tag="Purpose"/>
+  <taggedValue xmi:id="_3Hyb5D26Ee-Ut8nmmUrvPQ" tag="Description"/>
+  <taggedValue xmi:id="_3Hyb5T26Ee-Ut8nmmUrvPQ" tag="Version" value="0.1"/>
+  <context xmi:id="_3Hyb5j26Ee-Ut8nmmUrvPQ">
+    <connection href="../../metadata/connections/TestDB_0.1.item#_0Sqo4D26Ee-Ut8nmmUrvPQ"/>
+    <analysedElements xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/TestDB_0.1.item#_0U9H6T26Ee-Ut8nmmUrvPQ"/>
+  </context>
+  <results xmi:id="_3Hyb5z26Ee-Ut8nmmUrvPQ">
+    <resultMetadata xmi:id="_3Hyb6D26Ee-Ut8nmmUrvPQ"/>
+    <indicators xsi:type="dataquality.indicators.schema:SchemaIndicator" xmi:id="_3Hyb6T26Ee-Ut8nmmUrvPQ">
+      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/TestDB_0.1.item#_0U9H6T26Ee-Ut8nmmUrvPQ"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_3Hyb6j26Ee-Ut8nmmUrvPQ" analysisType="Schema Analysis"/>
+</dataquality.analysis:Analysis>

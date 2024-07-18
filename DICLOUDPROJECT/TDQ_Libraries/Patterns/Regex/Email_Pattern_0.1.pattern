@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_cZHTQETgEe-4Ie6Oid2XiA" name="Email_Pattern">
+  <taggedValue xmi:id="_cZHTQUTgEe-4Ie6Oid2XiA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_cZHTQkTgEe-4Ie6Oid2XiA" tag="Author" value="yahwant@asl.talend.com"/>
+  <taggedValue xmi:id="_cZHTQ0TgEe-4Ie6Oid2XiA" tag="Purpose"/>
+  <taggedValue xmi:id="_cZHTRETgEe-4Ie6Oid2XiA" tag="Description"/>
+  <taggedValue xmi:id="_cZHTRUTgEe-4Ie6Oid2XiA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_cZHTRkTgEe-4Ie6Oid2XiA" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_cZHTR0TgEe-4Ie6Oid2XiA" expressionType="REGEXP">
+    <expression xmi:id="_cZHTSETgEe-4Ie6Oid2XiA" body="'^[0-9][0-9][0-9][0-9][0-9]                         $'" language="Microsoft SQL Server"/>
+  </components>
+</dataquality.domain.pattern:Pattern>
